@@ -100,6 +100,7 @@ body {
     background-color:white;
    box-shadow:2px 1px 1px #dddddd;
    margin:0px 0px 10px 0px;
+   z-index:8;
    
    
     
@@ -146,7 +147,7 @@ p {
     background-color:#666666;
     color:white;
     text-align:center;
-   
+   z-index:9;
 }
 
 
@@ -289,163 +290,19 @@ padding:5px;
     clear: both;
 }
 
-#about-me-portfolio {
-    position:relative;
+
+.about-me-portfolio {
+    position:absolute;
     width:960px;
    height:800px;
-    top:15%;
+    top:5%;
     background-color:white;
    box-shadow:2px 1px 1px #dddddd;
-   z-index:0;
+   margin:0px 0px 150px 0px;
+   
     }
 
 
-    /*Responsive*/
-
-    @media only screen and (max-width: 980px) {
-        .navigation {
-            color:#666666;    
-            Position:fixed;
-            margin:10px;
-            right:20%;
-            Top:3%;
-            font-family: 'georgia', Times, 'Times New Roman',serif;
-            z-index:0;
-            
-            
-        }
-        
-        #name {
-            position:relative;
-            Left:10%;
-            width:300px;
-            height:80px;
-            background-color:#4aaaa5;
-        }
-
-
-        .about-me {
-            Position:relative;
-            width:800px;
-            right:7%;
-            bottom:5%;
-            background-color:white;
-           box-shadow:2px 1px 1px #dddddd;
-           margin:0px 0px 10px 0px;
-           
-        }
-
-        .footer {
-            width:980px;
-        }
-
-        h4 {
-            Position:fixed;
-            left:10%;
-            text-align:center;
-        }
-
-        #about-me-portfolio {
-            width:700px;
-        }
-
-
-    }
-
-    @media only screen and (max-width: 768px) {
-        .navigation {
-            color:#666666;    
-            Position:fixed;
-            margin:10px;
-            right:10%;
-            Top:3%;
-            font-family: 'georgia', Times, 'Times New Roman',serif;
-            z-index:0;
-            
-            
-        }
-        
-        .about-me {
-            Position:relative;
-            width:750px;          
-            bottom:5%;
-            right:10%;
-            background-color:white;
-           box-shadow:2px 1px 1px #dddddd;
-           margin:0px 0px 10px 0px;
-           
-           
-            
-        }
-        }
-
-        .footer {
-            width:768px
-        }
-    
-        #about-me-portfolio {
-            width:400px;
-        }
-
-
-
-    @media only screen and (max-width: 640px) {
-        .navigation {
-            color:#666666;    
-            Position:fixed;
-            margin:10px;
-            right:5%;
-            Top:3%;
-            font-family: 'georgia', Times, 'Times New Roman',serif;
-            z-index:0;
-            
-            
-        }
-
-        
-        #name {
-            position:relative;
-            Left:10%;
-            width:300px;
-            height:80px;
-            background-color:#4aaaa5;
-        }
-
-        
-        .about-me {
-            Position:relative;
-            width:300px;
-            bottom:5%;
-            right:10%;
-            background-color:white;
-           box-shadow:2px 1px 1px #dddddd;
-           margin:0px 0px 10px 0px;
-           
-           
-            
-        }
-        
-        }
-
-        .footer {
-            width:100%;
-        }
-
-        h4 {
-            Position:relative;
-            left:3%;
-            text-align:center;
-           
-            
-        }
-        #about-me-portfolio {
-            width:300px;
-        }
-    
-
-
-
-    
     /*Responsive*/
 
     @media only screen and (max-width: 980px) {
@@ -474,7 +331,7 @@ padding:5px;
             Position:relative;
             width:700px;
             bottom:5%;
-            right:7%;
+            right:4%;
             background-color:white;
            box-shadow:2px 1px 1px #dddddd;
            margin:0px 0px 10px 0px;
@@ -482,21 +339,26 @@ padding:5px;
         }
 
         .footer {
-            width:980px;
+            width:100%;
+            bottom:0px;
         }
-
         
-        #about-me-portfolio {
-            position:relative;
-            width:600px;
-           height:800px;
-            top:15%;
+     
+        .about-me-portfolio {
+            position:absolute;
+            width:760px;
+        height:800px;
+            top:5%;
+            right:1%;
             background-color:white;
-           box-shadow:2px 1px 1px #dddddd;
-           z-index:0;
-           padding:0px 0px 0px 80px;
-        }
-    }
+        box-shadow:2px 1px 1px #dddddd;
+        margin:0px 0px 150px 0px;
+        
+            }
+
+            }
+
+
 
     @media only screen and (max-width: 768px) {
         .navigation {
@@ -513,23 +375,31 @@ padding:5px;
         
         .about-me {
             Position: relative;
-            width:600px;          
+            width:650px;          
             right:20%;
             background-color:white;
            box-shadow:2px 1px 1px #dddddd;
            margin:0px 0px 10px 0px;
            
-           
-            
         }
         
 
         .footer {
-            width:768px
+            width:100%
         }
     
-        #about-me-portfolio {
-            width:400px;
+        .about-me-portfolio {
+            position:absolute;
+            width:560px;
+        height:800px;
+            top:5%;
+            right:1%;
+            background-color:white;
+        box-shadow:2px 1px 1px #dddddd;
+        margin:0px 0px 150px 0px;
+        
+            }
+
         }
 
     
@@ -545,9 +415,16 @@ padding:5px;
             font-family: 'georgia', Times, 'Times New Roman',serif;
             z-index:0;
             
-            
         }
 
+        .about-me {
+            Position: relative;
+            width:500px;          
+            right:20%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 10px 0px;
+        }
         
         #name {
             position:relative;
@@ -558,24 +435,9 @@ padding:5px;
         }
 
         
-        .about-me {
-            Position:relative;
-            width:500px;
-            height:600px;
-            bottom:5%;
-            right:20%;
-            background-color:white;
-           box-shadow:2px 1px 1px #dddddd;
-           margin:0px 0px 50px 0px;
-           
-           
-            
-        }
-        
-        
-
         .footer {
             width:100%;
+            z-index:9;
         }
 
         h4 {
@@ -585,17 +447,39 @@ padding:5px;
            
             
         }
-        #about-me-portfolio {    
-            position:relative;
-            width:300px;
-           height:800px;
-            top:15%;
+        .about-me-portfolio {
+            position:absolute;
+            width:380px;
+        height:1300px;
+            top:5%;
+        
             background-color:white;
-           box-shadow:2px 1px 1px #dddddd;
-           z-index:0;
-        }
+        box-shadow:2px 1px 1px #dddddd;
+        margin:0px 0px 150px 0px;
+        
+            }
 
         form {
             padding:10px 25px 10px 25px;
             
+        }
+
+        .box-container-1 {
+            position:relative;
+            left:15%;
+        }
+
+        .box-container-2 {
+            position:relative;
+            left:15%;
+        }
+
+        .box-container-3 {
+            position:relative;
+            left:15%;
+        }
+
+        .box-container-4 {
+            position:relative;
+            left:15%;
         }
