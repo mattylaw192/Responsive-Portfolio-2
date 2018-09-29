@@ -1,0 +1,575 @@
+.wrapper {
+
+    margin-right: auto;
+    margin-left: auto;
+    padding:0px 0px 25px 0px;
+    max-width:1100px;
+    
+    
+
+}
+
+header {
+    position:fixed;
+    Top:0px;
+    left:0px;
+    width:100%;
+    height:100px;
+    margin:-20px 0px 10px 0px;
+    background-color:white;
+    box-shadow:0px 2px 0px 0px #dddddd;
+    z-index:9;
+       }
+
+
+/*This is the site-wide navigation*/      
+.navigation {
+    color:#666666;    
+    Position:fixed;
+    margin:10px;
+    right:25%;
+    Top:3%;
+    font-family: 'georgia', Times, 'Times New Roman',serif;
+    z-index:0;
+    
+    
+}
+
+a:link, a:visited {
+    color:#666666;
+    Font-size:13pt;
+    text-decoration: none;
+    font-family: 'georgia',Times,'Times New Roman',serif;
+}
+
+
+
+h1 {
+    color:#4aaaa5;
+    Position: relative;
+    Left:3.5%;
+    text-align:left;
+    padding:15px 0px 5px 0px;
+}
+
+h2 {
+    color:#666666;
+    font-size:15px;
+}
+
+
+/*This is the green box*/
+#name {
+    position:relative;
+    Left:20%;
+    width:300px;
+    height:80px;
+    background-color:#4aaaa5;
+        
+}
+
+
+/*This is the first name text within the green box*/
+#name1 {
+    Position:relative;
+    Left:15%;
+    height:75px;
+    color:white;
+    padding:20px 15px 20px 15px;
+}
+
+
+body {   
+    background-image: URL('images/background3.jpg');
+    position:relative;
+    top:5%;
+    margin:125px;
+    padding:10px;
+    overflow:scroll;
+    height:500px;
+    
+}
+
+
+/*This is the about me content within the body*/
+.about-me {
+    Position:relative;
+    width:960px;
+    
+    bottom:5%;
+    background-color:white;
+   box-shadow:2px 1px 1px #dddddd;
+   margin:0px 0px 10px 0px;
+   
+   
+    
+}
+
+
+
+.about-me-content {
+    
+    left:2%;
+    right:-10px;
+    bottom:40px;
+    padding:0px 10px 10px 20px;
+    margin:5px;
+    color:#777777; 
+    height:auto;
+    
+}
+
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    font-size:16px;
+
+}
+
+#headshot {
+    position:relative;
+    float:left;
+    width:20%;
+    margin:0px 10px 10px 38px;
+   
+    
+    
+   
+}
+
+.footer {
+    position:fixed;
+    Bottom:0px;
+    Left:0px;
+    width:100%;
+    height:50px;
+    background-color:#666666;
+    color:white;
+    text-align:center;
+   
+}
+
+
+
+hr {
+    position:relative;
+    width:95%;
+    left:1%;
+    
+}
+
+.green-border {
+    position:fixed;
+    bottom:50px;
+    left:0px;
+    width:100%;
+    height:10px;
+    background-color:#4aaaa5;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+form {
+    padding:0px 20px 0px 20px;
+}
+
+input {
+    width:90%;
+   
+  
+}
+
+#submit {
+    width:80px;
+    height:30px;
+    background-color:#4aaaa5;
+    color:white;
+    margin: 0px 0px 10px 0px;
+}
+
+#message_input {
+    height:100px;
+    width:90%;    
+}
+
+
+
+/*portfolio Page*/
+
+.box-container-1 {
+float:left;
+left:3%;
+padding:5px;
+}
+
+.box-container-2 {
+float:left;
+left:3%;
+clear:auto;
+padding:5px;
+}
+
+.box-container-3 {
+ float:left;
+ left:3%;
+ padding:5px;
+}
+
+.box-container-4 {
+   float:left;
+   left:3%;
+   padding:5px;
+     
+}
+
+
+
+
+#green-textbox-1 {
+    position:relative;
+    background-color:#4aaaa5;
+    width:246px;
+    bottom:70px;
+    height:40px;
+    color:white;
+    text-align:center;
+    max-width:auto;
+    
+}
+
+#green-textbox-2 {
+    position:relative;
+    background-color:#4aaaa5;
+    width:250px;
+    bottom:70px;
+    height:40px;
+    color:white;
+    text-align:center;
+}
+
+#green-textbox-3 {
+    position:relative;
+    
+    background-color:#4aaaa5;
+    width:250px;
+    bottom:70px;
+    height:40px;
+    color:white;
+    text-align:center;
+}
+
+#green-textbox-4 {   
+    position:relative;
+    background-color:#4aaaa5;
+    width:250px;
+    bottom:70px;
+    height:40px;
+    color:white;
+    text-align:center;
+    z-index:9;
+}
+
+.Green-box-font {
+    Position:absolute;
+    color:white;
+    Style:bold;
+    left:70px;
+    Bottom:-8px;
+    font-size:14pt;
+    Font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#about-me-portfolio {
+    position:relative;
+    width:960px;
+   height:800px;
+    top:15%;
+    background-color:white;
+   box-shadow:2px 1px 1px #dddddd;
+   z-index:0;
+    }
+
+
+    /*Responsive*/
+
+    @media only screen and (max-width: 980px) {
+        .navigation {
+            color:#666666;    
+            Position:fixed;
+            margin:10px;
+            right:20%;
+            Top:3%;
+            font-family: 'georgia', Times, 'Times New Roman',serif;
+            z-index:0;
+            
+            
+        }
+        
+        #name {
+            position:relative;
+            Left:10%;
+            width:300px;
+            height:80px;
+            background-color:#4aaaa5;
+        }
+
+
+        .about-me {
+            Position:relative;
+            width:800px;
+            right:7%;
+            bottom:5%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 10px 0px;
+           
+        }
+
+        .footer {
+            width:980px;
+        }
+
+        h4 {
+            Position:fixed;
+            left:10%;
+            text-align:center;
+        }
+
+        #about-me-portfolio {
+            width:700px;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .navigation {
+            color:#666666;    
+            Position:fixed;
+            margin:10px;
+            right:10%;
+            Top:3%;
+            font-family: 'georgia', Times, 'Times New Roman',serif;
+            z-index:0;
+            
+            
+        }
+        
+        .about-me {
+            Position:relative;
+            width:750px;          
+            bottom:5%;
+            right:10%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 10px 0px;
+           
+           
+            
+        }
+        }
+
+        .footer {
+            width:768px
+        }
+    
+        #about-me-portfolio {
+            width:400px;
+        }
+
+
+
+    @media only screen and (max-width: 640px) {
+        .navigation {
+            color:#666666;    
+            Position:fixed;
+            margin:10px;
+            right:5%;
+            Top:3%;
+            font-family: 'georgia', Times, 'Times New Roman',serif;
+            z-index:0;
+            
+            
+        }
+
+        
+        #name {
+            position:relative;
+            Left:10%;
+            width:300px;
+            height:80px;
+            background-color:#4aaaa5;
+        }
+
+        
+        .about-me {
+            Position:relative;
+            width:300px;
+            bottom:5%;
+            right:10%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 10px 0px;
+           
+           
+            
+        }
+        
+        }
+
+        .footer {
+            width:100%;
+        }
+
+        h4 {
+            Position:relative;
+            left:3%;
+            text-align:center;
+           
+            
+        }
+        #about-me-portfolio {
+            width:300px;
+        }
+    
+
+
+
+    
+    /*Responsive*/
+
+    @media only screen and (max-width: 980px) {
+        .navigation {
+            color:#666666;    
+            Position:fixed;
+            margin:10px;
+            right:20%;
+            Top:3%;
+            font-family: 'georgia', Times, 'Times New Roman',serif;
+            z-index:0;
+            
+            
+        }
+        
+        #name {
+            position:relative;
+            Left:15%;
+            width:300px;
+            height:80px;
+            background-color:#4aaaa5;
+        }
+
+
+        .about-me {
+            width:700px;
+        }
+
+        .footer {
+            width:980px;
+        }
+
+        #about-me-portfolio {
+            width:700px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .navigation {
+            color:#666666;    
+            Position:fixed;
+            margin:10px;
+            right:10%;
+            Top:3%;
+            font-family: 'georgia', Times, 'Times New Roman',serif;
+            z-index:0;
+            
+            
+        }
+        
+        .about-me {
+            Position: relative;
+            width:600px;          
+            bottom:5%;
+            right:10%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 10px 0px;
+           
+           
+            
+        }
+        
+
+        .footer {
+            width:768px
+        }
+    
+        #about-me-portfolio {
+            width:400px;
+        }
+
+    
+
+
+    @media only screen and (max-width: 640px) {
+        .navigation {
+            color:#666666;    
+            Position:fixed;
+            margin:10px;
+            right:5%;
+            Top:3%;
+            font-family: 'georgia', Times, 'Times New Roman',serif;
+            z-index:0;
+            
+            
+        }
+
+        
+        #name {
+            position:relative;
+            Left:10%;
+            width:300px;
+            height:80px;
+            background-color:#4aaaa5;
+        }
+
+        
+        .about-me {
+            Position:relative;
+            width:400px;
+            bottom:5%;
+            right:10%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 50px 0px;
+           
+           
+            
+        }
+        
+        }
+
+        .footer {
+            width:100%;
+        }
+
+        h4 {
+            Position:relative;
+            left:3%;
+            text-align:center;
+           
+            
+        }
+        #about-me-portfolio {
+            width:300px;
+        }
