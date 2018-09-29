@@ -276,7 +276,7 @@ padding:5px;
 .Green-box-font {
     Position:absolute;
     color:white;
-    Style:bold;
+    style:bold;
     left:70px;
     Bottom:-8px;
     font-size:14pt;
@@ -471,15 +471,30 @@ padding:5px;
 
 
         .about-me {
+            Position:relative;
             width:700px;
+            bottom:5%;
+            right:7%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           margin:0px 0px 10px 0px;
+           
         }
 
         .footer {
             width:980px;
         }
 
+        
         #about-me-portfolio {
-            width:700px;
+            position:relative;
+            width:600px;
+           height:800px;
+            top:15%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           z-index:0;
+           padding:0px 0px 0px 80px;
         }
     }
 
@@ -499,8 +514,7 @@ padding:5px;
         .about-me {
             Position: relative;
             width:600px;          
-            bottom:5%;
-            right:10%;
+            right:20%;
             background-color:white;
            box-shadow:2px 1px 1px #dddddd;
            margin:0px 0px 10px 0px;
@@ -546,9 +560,10 @@ padding:5px;
         
         .about-me {
             Position:relative;
-            width:400px;
+            width:500px;
+            height:600px;
             bottom:5%;
-            right:10%;
+            right:20%;
             background-color:white;
            box-shadow:2px 1px 1px #dddddd;
            margin:0px 0px 50px 0px;
@@ -557,7 +572,7 @@ padding:5px;
             
         }
         
-        }
+        
 
         .footer {
             width:100%;
@@ -570,6 +585,17 @@ padding:5px;
            
             
         }
-        #about-me-portfolio {
+        #about-me-portfolio {    
+            position:relative;
             width:300px;
+           height:800px;
+            top:15%;
+            background-color:white;
+           box-shadow:2px 1px 1px #dddddd;
+           z-index:0;
+        }
+
+        form {
+            padding:10px 25px 10px 25px;
+            
         }
